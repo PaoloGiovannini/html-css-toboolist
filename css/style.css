@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
-#logo{
+body{
+    background-color:#38AAFF;
+}
+
+#container-logo{
  padding: 20px 20px;
+ margin-bottom: 20px;
+
 }
 
 #boolean{
@@ -18,3 +24,47 @@
     vertical-align: middle;
 }
 
+main{
+    width: 70%;
+    margin: auto;
+}
+
+
+header{
+    background-color: white;
+}
+
+/*contenitore bianco*/
+.container {
+    background-color: white;
+    height: 600px;
+    width: 900px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  .bottoni{
+    padding: 20px 40px;
+  }
+  
+  /*bordi rotondi*/
+  .pulsante {
+    padding: 7px;
+    border-radius: 5px;
+  }
+  
+  /*bottone task*/
+  #task {
+    background-color: #38AAFF;
+  }
+
+  /*bottone section*/
+  #section {
+    border: 1px solid darkgray;
+  }
+  
+  hr{
+    height: 1px;
+    background-color: lightgray;
+    border: none;
+  }
