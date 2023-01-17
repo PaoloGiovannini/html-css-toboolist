@@ -67,4 +67,65 @@ header{
     height: 1px;
     background-color: lightgray;
     border: none;
+    margin-bottom: 20px;
+  }
+
+  #contcentrale{
+    margin-left: 40px;
+  }
+
+  .check::after{
+    content: '\2713';
+  }
+
+  /*cerchio dove mettere il check o la croce*/
+  .circle{ 
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  .green{
+    border: 1px solid green;
+  }
+
+  /*spunta prima del titolo*/
+  h2::before{
+    content: '\2714';
+  }
+
+  /*definizione forma e colore etichette*/
+  .mark{
+    border-radius: 20px;
+    padding: 4px 8px;
+    color: white;
+  }
+
+  .editorial{
+    background-color: #38AAFF;
+  }
+
+  .cross::after{
+    content: '\2717';
+  }
+
+  .red{
+    border: 1px solid red;
+  }
+
+  .goals{
+    background-color: #AB5CE6;
+  }
+  
+  .recruiting{
+    background-color: #2CC6AB;
+  }
+
+  .mobile{
+    background-color: #FA9B00;
   }
