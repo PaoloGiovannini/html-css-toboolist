@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -37,7 +38,7 @@ header{
 /*contenitore bianco*/
 .container {
     background-color: white;
-    height: 600px;
+    height: 750px;
     width: 900px;
     border-radius: 5px;
     margin-top: 50px;
@@ -47,7 +48,7 @@ header{
     padding: 20px 40px;
   }
   
-  /*bordi rotondi*/
+  /*bordi rotondi pulsanti*/
   .pulsante {
     padding: 7px;
     border-radius: 5px;
@@ -70,10 +71,16 @@ header{
     margin-bottom: 20px;
   }
 
+  h2{
+    margin-top: 15px;
+    margin-bottom: 7px;
+  }
+  
   #contcentrale{
     margin-left: 40px;
   }
 
+  /*aggiunta spunta*/
   .check::after{
     content: '\2713';
   }
@@ -110,6 +117,7 @@ header{
     background-color: #38AAFF;
   }
 
+  /*aggiunta croce*/
   .cross::after{
     content: '\2717';
   }
@@ -128,4 +136,12 @@ header{
 
   .mobile{
     background-color: #FA9B00;
+  }
+
+  .website{
+    background-color: #EC4A9D;
+  }
+
+  .sales{
+    background-color: #A3D114;
   }
